@@ -67,6 +67,7 @@ namespace ConsoleApp2
 
 
 
+
             //var student = new
             //{
             //    firstname = "Cemil",
@@ -75,6 +76,9 @@ namespace ConsoleApp2
 
             //};
             //Console.WriteLine(student.firstname);
+
+
+
 
 
 
@@ -115,7 +119,7 @@ namespace ConsoleApp2
 
             //Console.Write("Result: ");
 
-            //if (num % 4 == 0 && num % 9 == 0) 
+            //if (num % 4 == 0 && num % 9 == 0)
             //{
             //    Console.Write("Bolunur");
             //}
@@ -124,6 +128,112 @@ namespace ConsoleApp2
             //{
             //    Console.Write("Bolunmur");
             //}
+
+
+
+
+
+            //Console.WriteLine("Bir eded secin");
+            //string numStr = Console.ReadLine();
+            //int n = Convert.ToInt32(numStr);
+
+            //while (n % 2 == 0)
+            //{
+            //    n /= 2;
+            //}
+            //if (n == 1)
+            //{
+            //    Console.WriteLine("Quvetidir");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Quveti deyl");
+            //}
+
+
+
+
+
+
+
+            //#region
+            //Console.WriteLine("Bir eded daxil edin");
+            //int num1 = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("Bir ededi daxil edin");
+            //int num2 = Convert.ToInt32(Console.ReadLine());
+            //for (int i = num1; i < num2; i++)
+            //{
+            //    Console.WriteLine(i);
+            //}
+            //#endregion
+
+
+
+
+
+
+            // #region
+            // Console.WriteLine("Bir eded daxil edin");
+            // int num = Convert.ToInt32(Console.ReadLine());
+            // int i = 70;
+            // if (num > i) 
+            // {
+            //     num = num - i;
+            //     num *= 3;
+            // }
+            // else
+            // {
+            //     num -= i;
+            // }
+            // Console.WriteLine(num);
+            //}
+            // #endregion
+
+
+
+
+
+            //#region
+            //int x = 20;
+            //int y = 30;
+            //int z = 40;
+
+            //if (x > y && x > z)
+            //{
+            //    Console.WriteLine(x);
+            //}
+            //else if (y > x && y > z)
+            //{
+            //    Console.WriteLine(y);
+            //}
+            //else
+            //{
+            //    Console.WriteLine(z);
+            //}
+            //#endregion
+
+
+            #region
+            Console.WriteLine("N ededini daxil edin");
+            int n = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("m ededini daxil edin");
+            int m = Convert.ToInt32(Console.ReadLine());
+
+            int count = 0;
+            if (n % 2 == 0)
+            {
+                n++;
+            }
+
+            for (int i = n; i <= m; i+=2)
+            {
+                count++;
+            }
+            Console.WriteLine(count);
+            #endregion
+
+
+
 
 
 
