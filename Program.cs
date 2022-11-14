@@ -213,24 +213,24 @@ namespace ConsoleApp2
             //#endregion
 
 
-            #region
-            Console.WriteLine("N ededini daxil edin");
-            int n = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("m ededini daxil edin");
-            int m = Convert.ToInt32(Console.ReadLine());
+            //#region
+            //Console.WriteLine("N ededini daxil edin");
+            //int n = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("m ededini daxil edin");
+            //int m = Convert.ToInt32(Console.ReadLine());
 
-            int count = 0;
-            if (n % 2 == 0)
-            {
-                n++;
-            }
+            //int count = 0;
+            //if (n % 2 == 0)
+            //{
+            //    n++;
+            //}
 
-            for (int i = n; i <= m; i+=2)
-            {
-                count++;
-            }
-            Console.WriteLine(count);
-            #endregion
+            //for (int i = n; i <= m; i+=2)
+            //{
+            //    count++;
+            //}
+            //Console.WriteLine(count);
+            //#endregion
 
 
 
